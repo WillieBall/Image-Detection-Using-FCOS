@@ -8,14 +8,17 @@
   
 ![image](https://github.com/WillieBall/Image-Detection-Using-FCOS/assets/47549002/7f3c0d5e-8039-4f1a-86be-ffcd838555e2)
 
+
 * FCOS looks to speed up the process of object detection allowing it detect objects faster than other widely used methods. Good for projects that want speed over full accuracy.
 * Below is a diagram of the network architecture.
   
 ![image](https://github.com/WillieBall/Image-Detection-Using-FCOS/assets/47549002/a1e28b8a-2133-43de-b73d-7baf3bbb5c81)
 
+
 * The Two main formulas used in this method are listed below. They are used to find the bounding boxes
   
 ![image](https://github.com/WillieBall/Image-Detection-Using-FCOS/assets/47549002/756e9538-f731-4d45-b33c-2f62976a797f)
+
 
 * Below is a video of this code running for use in CSE470(Advanced Image Processing)
 * https://drive.google.com/file/d/1nioJ5HQ7tSuXHnqUvmQuxRurYSy-bcLa/view?usp=sharing
@@ -27,10 +30,12 @@
 ![image](https://github.com/WillieBall/Image-Detection-Using-FCOS/assets/47549002/7c39313f-bf8d-4290-bf98-0137c8f7f668)
 ![image](https://github.com/WillieBall/Image-Detection-Using-FCOS/assets/47549002/2cd62a4d-45db-4ab9-a54a-c728ea069908)
 
+
 * In this project I initially used YOLOv2 to compare to FCOS. The AP percentage was only slighly less using FCOS than with YOLOv2, however I did notice that YOLOv2 was able to detect more images than FCOS was able to, atleast with my implementation of FOCOS.
 * Below is a table of what the creators claim to be the AP percentages of other popular object detection methods compared to FCOS using different backbones.
   
 ![image](https://github.com/WillieBall/Image-Detection-Using-FCOS/assets/47549002/63237255-bf20-4105-92d7-55b250f514be)
+
 
 * So the main advantage of FCOS is avoids computations associated with pre-defined anchor boxes. In my testing FCOS was about twice as fast as YOLOv2 was.
 
